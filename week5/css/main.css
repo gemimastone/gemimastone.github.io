@@ -8,7 +8,7 @@ body {
     Shortcut for adding then comment Command + / or Control + /
   */
   h1 {
-    color: peru;
+    color: turquoise;
   }
   
   
@@ -37,13 +37,13 @@ body {
   
   /* Selecting element with id value */
   #ourlatestjournals {
-    background-color: orange;
+    background-color: rgb(0, 255, 255);
   }
   
   /* Selecting elements with class value */
   .orange-link {
     background-color: darkslategrey;
-    color: orange;
+    color: rgba(83, 255, 241, 0.76);
     text-decoration: none;
   }
   
@@ -77,7 +77,7 @@ body {
   nav ul a,
   nav ul a:link,
   nav ul a:visited {
-    background-color: orange;
+    background-color: rgb(112, 255, 236);
     /* horizontal vertical blur spread color */
     box-shadow: -2px 2px 4px 2px black;
   }
@@ -111,7 +111,7 @@ body {
   /* nth-child selector with odd/even keyword */
   tbody tr:nth-child(even) {
     /* 6 digit hex */
-    background-color: #d5836c;
+    background-color: #6cffeb;
   }
   
   /* nth-child selector with n. where n is 0,1,2,3... */
@@ -142,18 +142,18 @@ body {
   
   /* 0001 */
   footer {
-    background-color: red;
+    background-color: rgb(138, 243, 226);
   }
   
   
   /* 0002 */
   body footer {
-    background-color: orange;
+    background-color: rgba(0, 255, 234, 0.534);
   }
   
   /* 0010 */
   .site-footer {
-    background-color: cornflowerblue;
+    background-color: rgb(126, 207, 218);
   }
   
   /* 0011 */
