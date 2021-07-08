@@ -1,4 +1,5 @@
 /* Set color as a variable to enhance re-usability */
+/* root selector, is used to reach the highest targeted level of parent by matching the document root element*/
 :root {
     --primary: #a8d2ce;
     --light: #d3e8e6;
@@ -6,6 +7,7 @@
   }
   
   html,
+  /*Setting the Body*/
   body {
     background-color: var(--primary);
     font-family: Arial, Helvetica, sans-serif;
